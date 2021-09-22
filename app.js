@@ -44,7 +44,7 @@ gradeForm.addEventListener('submit', (e) => {
         msg.innerHTML = 'sorry you have been failed';
         averageMark.innerHTML = '';
         totalMark.innerHTML = '';
-        // markSheet.style.display = 'none';
+        markSheet.style.display = 'none';
         grade.innerHTML = 'Your Grade = F';
     }
     else {
